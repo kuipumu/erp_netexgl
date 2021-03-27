@@ -1,0 +1,1189 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-27 18:45+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: accounting/apps.py:14
+msgid "Accounting"
+msgstr ""
+
+#: accounting/data.py:15
+msgid "USD"
+msgstr ""
+
+#: accounting/data.py:16
+msgid "CAD"
+msgstr ""
+
+#: accounting/data.py:20
+msgid "Cash"
+msgstr ""
+
+#: accounting/data.py:21
+msgid "Check"
+msgstr ""
+
+#: accounting/data.py:22
+msgid "Credit Card"
+msgstr ""
+
+#: accounting/data.py:23
+msgid "EFT"
+msgstr ""
+
+#: accounting/data.py:24
+msgid "Wire Transfer"
+msgstr ""
+
+#: accounting/data.py:25
+msgid "Direct Deposit"
+msgstr ""
+
+#: accounting/data.py:29
+msgid "Customs Duty"
+msgstr ""
+
+#: accounting/data.py:30
+msgid "Customs GST"
+msgstr ""
+
+#: accounting/data.py:31
+msgid "Brokerage"
+msgstr ""
+
+#: accounting/data.py:32 freight/apps.py:14
+msgid "Freight"
+msgstr ""
+
+#: accounting/data.py:33
+msgid "Terminal / Handling"
+msgstr ""
+
+#: accounting/data.py:34
+msgid "Documentation"
+msgstr ""
+
+#: accounting/data.py:35
+msgid "Cartage #1"
+msgstr ""
+
+#: accounting/data.py:36
+msgid "Cartage #2"
+msgstr ""
+
+#: accounting/data.py:37
+msgid "Liftgate Fee"
+msgstr ""
+
+#: accounting/data.py:38
+msgid "Appointment Fee"
+msgstr ""
+
+#: accounting/data.py:39
+msgid "Export Docs"
+msgstr ""
+
+#: accounting/data.py:40
+msgid "Airline Transfer"
+msgstr ""
+
+#: accounting/data.py:41
+msgid "Waiting Time"
+msgstr ""
+
+#: accounting/data.py:42
+msgid "Bond Charges"
+msgstr ""
+
+#: accounting/data.py:43
+msgid "Import Permits"
+msgstr ""
+
+#: accounting/data.py:44
+msgid "Packaging Charges"
+msgstr ""
+
+#: accounting/data.py:45
+msgid "Courier"
+msgstr ""
+
+#: accounting/data.py:46
+msgid "Storage Charges"
+msgstr ""
+
+#: accounting/data.py:47
+msgid "Warehouse In"
+msgstr ""
+
+#: accounting/data.py:48
+msgid "Warehouse Out"
+msgstr ""
+
+#: accounting/data.py:49
+msgid "Fuel Surcharge"
+msgstr ""
+
+#: accounting/data.py:50
+msgid "Nav. Canada Fees"
+msgstr ""
+
+#: accounting/data.py:51
+msgid "Security Surcharge"
+msgstr ""
+
+#: accounting/data.py:52
+msgid "Border Security Charge"
+msgstr ""
+
+#: accounting/data.py:53
+msgid "Doc Charges"
+msgstr ""
+
+#: accounting/data.py:54
+msgid "Customs Exams Charge"
+msgstr ""
+
+#: accounting/data.py:55
+msgid "DUI Agent Fee"
+msgstr ""
+
+#: accounting/data.py:56
+msgid "Insurance Fee"
+msgstr ""
+
+#: accounting/data.py:57
+msgid "Paying Charge"
+msgstr ""
+
+#: accounting/data.py:58
+msgid "Outport Fee"
+msgstr ""
+
+#: accounting/data.py:59
+msgid "ISF"
+msgstr ""
+
+#: accounting/data.py:60
+msgid "MPF"
+msgstr ""
+
+#: accounting/data.py:61
+msgid "Line Fee"
+msgstr ""
+
+#: accounting/data.py:62
+msgid "Funds Advance"
+msgstr ""
+
+#: accounting/data.py:63
+msgid "FCC"
+msgstr ""
+
+#: accounting/data.py:64
+msgid "Labour Fee"
+msgstr ""
+
+#: accounting/data.py:65
+msgid "Consolidation Fee"
+msgstr ""
+
+#: accounting/data.py:66
+msgid "Administrative Charges"
+msgstr ""
+
+#: accounting/data.py:67
+msgid "Attempted Pickup"
+msgstr ""
+
+#: accounting/data.py:68
+msgid "Terminal Fee"
+msgstr ""
+
+#: accounting/data.py:69
+msgid "Terminal Handling"
+msgstr ""
+
+#: accounting/data.py:70
+msgid "Export Declaration"
+msgstr ""
+
+#: accounting/data.py:71
+msgid "Destuffing"
+msgstr ""
+
+#: accounting/data.py:72 freight/data.py:38
+msgid "Miscellaneous"
+msgstr ""
+
+#: accounting/models.py:30 freight/models.py:61
+msgid "Type"
+msgstr ""
+
+#: accounting/models.py:37
+msgid "Transfer Number"
+msgstr ""
+
+#: accounting/models.py:43 accounting/models.py:252
+msgid "Payment Date"
+msgstr ""
+
+#: accounting/models.py:48 accounting/models.py:144 freight/views.py:543
+msgid "Invoice #"
+msgstr ""
+
+#: accounting/models.py:54
+msgid "Invoice Backup"
+msgstr ""
+
+#: accounting/models.py:58
+msgid "Invoice Backup Sent Date"
+msgstr ""
+
+#: accounting/models.py:63
+msgid "Scan"
+msgstr ""
+
+#: accounting/models.py:73
+msgid "payment"
+msgstr ""
+
+#: accounting/models.py:74 freight/views.py:536
+msgid "Payments"
+msgstr ""
+
+#: accounting/models.py:91 accounting/models.py:180
+msgid "BT #"
+msgstr ""
+
+#: accounting/models.py:99 thirdparty/models.py:247
+msgid "Company"
+msgstr ""
+
+#: accounting/models.py:106
+msgid "Individual"
+msgstr ""
+
+#: accounting/models.py:112 accounting/models.py:194
+msgid "Service"
+msgstr ""
+
+#: accounting/models.py:119 accounting/models.py:201
+msgid "Price"
+msgstr ""
+
+#: accounting/models.py:126 accounting/models.py:208
+msgid "Currency"
+msgstr ""
+
+#: accounting/models.py:133
+msgid "Exchange Rate"
+msgstr ""
+
+#: accounting/models.py:138
+msgid "Invoice"
+msgstr ""
+
+#: accounting/models.py:154
+msgid "customer billing"
+msgstr ""
+
+#: accounting/models.py:155
+msgid "Customer billings"
+msgstr ""
+
+#: accounting/models.py:188 freight/views.py:423
+msgid "Supplier"
+msgstr ""
+
+#: accounting/models.py:215 freight/views.py:427 freight/views.py:494
+msgid "XR"
+msgstr ""
+
+#: accounting/models.py:220
+msgid "Bill #"
+msgstr ""
+
+#: accounting/models.py:226
+msgid "Bill"
+msgstr ""
+
+#: accounting/models.py:232
+msgid "Received"
+msgstr ""
+
+#: accounting/models.py:236
+msgid "Approved"
+msgstr ""
+
+#: accounting/models.py:240
+msgid "Recorded"
+msgstr ""
+
+#: accounting/models.py:244 freight/views.py:432
+msgid "Paid"
+msgstr ""
+
+#: accounting/models.py:248
+msgid "Dispute"
+msgstr ""
+
+#: accounting/models.py:257
+msgid "Payment Type"
+msgstr ""
+
+#: accounting/models.py:264
+msgid "Payment Scan"
+msgstr ""
+
+#: accounting/models.py:270
+msgid "Transfer #"
+msgstr ""
+
+#: accounting/models.py:280
+msgid "supplier billing"
+msgstr ""
+
+#: accounting/models.py:281
+msgid "Supplier billings"
+msgstr ""
+
+#: accounting/models.py:298 operations/models.py:27
+msgid "Name"
+msgstr ""
+
+#: accounting/models.py:304 freight/models.py:494 freight/views.py:372
+#: operations/models.py:33
+msgid "Description"
+msgstr ""
+
+#: accounting/models.py:310 operations/models.py:39
+msgid "Document"
+msgstr ""
+
+#: accounting/models.py:320 operations/models.py:49
+msgid "document"
+msgstr ""
+
+#: accounting/models.py:321 freight/data.py:37 operations/models.py:50
+msgid "Documents"
+msgstr ""
+
+#: freight/admin.py:104
+msgid "MAIN INFORMATION"
+msgstr ""
+
+#: freight/admin.py:112
+msgid "ORIGIN ADDRESS"
+msgstr ""
+
+#: freight/admin.py:120
+msgid "DESTINATION ADDRESS"
+msgstr ""
+
+#: freight/admin.py:128
+msgid "STATUS"
+msgstr ""
+
+#: freight/admin.py:139
+msgid "SHIPMENT INFORMATION"
+msgstr ""
+
+#: freight/admin.py:213
+msgid "Previous Export Docket"
+msgstr ""
+
+#: freight/admin.py:214
+msgid "Previous Import Docket"
+msgstr ""
+
+#: freight/data.py:8
+msgid "Inch"
+msgstr ""
+
+#: freight/data.py:9
+msgid "Feet"
+msgstr ""
+
+#: freight/data.py:10
+msgid "Cm"
+msgstr ""
+
+#: freight/data.py:11
+msgid "Cbm"
+msgstr ""
+
+#: freight/data.py:12
+msgid "Cbf"
+msgstr ""
+
+#: freight/data.py:22
+msgid "Box"
+msgstr ""
+
+#: freight/data.py:23
+msgid "Container"
+msgstr ""
+
+#: freight/data.py:24
+msgid "Skid"
+msgstr ""
+
+#: freight/data.py:25
+msgid "Crate"
+msgstr ""
+
+#: freight/data.py:26
+msgid "Flatbed"
+msgstr ""
+
+#: freight/data.py:27
+msgid "Ftl"
+msgstr ""
+
+#: freight/data.py:28
+msgid "Bundle"
+msgstr ""
+
+#: freight/data.py:29
+msgid "Packages"
+msgstr ""
+
+#: freight/data.py:30
+msgid "Roll"
+msgstr ""
+
+#: freight/data.py:31
+msgid "Engine"
+msgstr ""
+
+#: freight/data.py:32
+msgid "Rolling Printers"
+msgstr ""
+
+#: freight/data.py:33
+msgid "Pipe"
+msgstr ""
+
+#: freight/data.py:34
+msgid "Envelope"
+msgstr ""
+
+#: freight/data.py:35
+msgid "Hoist"
+msgstr ""
+
+#: freight/data.py:36
+msgid "Express Letter"
+msgstr ""
+
+#: freight/models.py:52 freight/views.py:181
+msgid "Docket #"
+msgstr ""
+
+#: freight/models.py:53
+msgid "The current docket identification number ID."
+msgstr ""
+
+#: freight/models.py:70
+msgid "Shipper Individual"
+msgstr ""
+
+#: freight/models.py:78
+msgid "Shipper Company"
+msgstr ""
+
+#: freight/models.py:86
+msgid "Consignee Individual"
+msgstr ""
+
+#: freight/models.py:94
+msgid "Consignee Company"
+msgstr ""
+
+#: freight/models.py:101 freight/models.py:139 thirdparty/models.py:32
+#: thirdparty/models.py:153
+msgid "Address Line 1"
+msgstr ""
+
+#: freight/models.py:107 freight/models.py:145 thirdparty/models.py:38
+#: thirdparty/models.py:159
+msgid "Address Line 2"
+msgstr ""
+
+#: freight/models.py:113 freight/models.py:151 thirdparty/models.py:44
+#: thirdparty/models.py:165
+msgid "City / District"
+msgstr ""
+
+#: freight/models.py:119 freight/models.py:157 thirdparty/models.py:50
+#: thirdparty/models.py:171
+msgid "State / Province"
+msgstr ""
+
+#: freight/models.py:125 freight/models.py:163
+msgid "ZIP C. / Postal C. "
+msgstr ""
+
+#: freight/models.py:131 freight/models.py:169 thirdparty/models.py:62
+#: thirdparty/models.py:183
+msgid "Country"
+msgstr ""
+
+#: freight/models.py:177 freight/views.py:285
+msgid "Inbond"
+msgstr ""
+
+#: freight/models.py:181 freight/views.py:290
+msgid "Hazardous Cargo"
+msgstr ""
+
+#: freight/models.py:185
+msgid "REF No. #"
+msgstr ""
+
+#: freight/models.py:186
+msgid "Reference Number of the docket."
+msgstr ""
+
+#: freight/models.py:192
+msgid "PO No. #"
+msgstr ""
+
+#: freight/models.py:193
+msgid "Purchase order Number of the docket."
+msgstr ""
+
+#: freight/models.py:199
+msgid "PRO No. #"
+msgstr ""
+
+#: freight/models.py:200
+msgid "Progressive Number of the docket."
+msgstr ""
+
+#: freight/models.py:206
+msgid "BOL No. #"
+msgstr ""
+
+#: freight/models.py:207
+msgid "Bill of lading Number of the docket."
+msgstr ""
+
+#: freight/models.py:213
+msgid "Pickup No. #"
+msgstr ""
+
+#: freight/models.py:214
+msgid "Pickup number of the docket."
+msgstr ""
+
+#: freight/models.py:220
+msgid "CC No. #"
+msgstr ""
+
+#: freight/models.py:221
+msgid "Cargo control number of the docket."
+msgstr ""
+
+#: freight/models.py:227
+msgid "AWB No. #"
+msgstr ""
+
+#: freight/models.py:228
+msgid "Air waybill number of the docket."
+msgstr ""
+
+#: freight/models.py:234
+msgid "BL No. #"
+msgstr ""
+
+#: freight/models.py:235
+msgid "BL number of the docket."
+msgstr ""
+
+#: freight/models.py:241
+msgid "HBL No. #"
+msgstr ""
+
+#: freight/models.py:242
+msgid "House bill of lading number of the docket."
+msgstr ""
+
+#: freight/models.py:248
+msgid "CNTR No. #"
+msgstr ""
+
+#: freight/models.py:249
+msgid "Container Number of the docket."
+msgstr ""
+
+#: freight/models.py:255
+msgid "Entry No. #"
+msgstr ""
+
+#: freight/models.py:256
+msgid "Entry number of the docket."
+msgstr ""
+
+#: freight/models.py:264
+msgid "carrier"
+msgstr ""
+
+#: freight/models.py:270 freight/views.py:287
+msgid "Est. Time of Delivery"
+msgstr ""
+
+#: freight/models.py:275
+msgid "Est. Time of Arrival 1"
+msgstr ""
+
+#: freight/models.py:280
+msgid "Est. Time of Arrival 2"
+msgstr ""
+
+#: freight/models.py:285
+msgid "Tracking Note"
+msgstr ""
+
+#: freight/models.py:290
+msgid "Storage Start Date"
+msgstr ""
+
+#: freight/models.py:295 freight/views.py:295
+msgid "Skids Exchange"
+msgstr ""
+
+#: freight/models.py:299 freight/views.py:300
+msgid "OBL To Shipping Line Sent"
+msgstr ""
+
+#: freight/models.py:303
+msgid "OBL To Shipping Line Sent Date"
+msgstr ""
+
+#: freight/models.py:308 freight/views.py:305
+msgid "Documents To Broker Sent"
+msgstr ""
+
+#: freight/models.py:312
+msgid "Documents To Broker Sent Date"
+msgstr ""
+
+#: freight/models.py:317 freight/views.py:310
+msgid "Documents To Carrier Sent"
+msgstr ""
+
+#: freight/models.py:321
+msgid "Documents To Carrier Sent Date"
+msgstr ""
+
+#: freight/models.py:326 freight/views.py:315
+msgid "Arrival Notice Received"
+msgstr ""
+
+#: freight/models.py:330
+msgid "Arrival Notice Received Date"
+msgstr ""
+
+#: freight/models.py:335 freight/views.py:320
+msgid "ISF Filled"
+msgstr ""
+
+#: freight/models.py:339
+msgid "ISF Filled Date"
+msgstr ""
+
+#: freight/models.py:344
+msgid "Release Date"
+msgstr ""
+
+#: freight/models.py:349
+msgid "Pickup Date"
+msgstr ""
+
+#: freight/models.py:354
+msgid "Shipment Note"
+msgstr ""
+
+#: freight/models.py:355
+msgid "Shipment note of the docket (only for employees.)."
+msgstr ""
+
+#: freight/models.py:360
+msgid "Customer Note"
+msgstr ""
+
+#: freight/models.py:361
+msgid "Customer note of the docket (only for client)."
+msgstr ""
+
+#: freight/models.py:367 freight/views.py:183
+msgid "Ready To Invoice"
+msgstr ""
+
+#: freight/models.py:371 freight/views.py:192
+msgid "Invoice Completed"
+msgstr ""
+
+#: freight/models.py:375 freight/views.py:188
+msgid "Shipment Delivered"
+msgstr ""
+
+#: freight/models.py:379 freight/views.py:196
+msgid "Docket Completed"
+msgstr ""
+
+#: freight/models.py:383 freight/views.py:201
+msgid "In Dispute"
+msgstr ""
+
+#: freight/models.py:387
+msgid "Dispute Note"
+msgstr ""
+
+#: freight/models.py:388
+msgid "Dispute note of the docket."
+msgstr ""
+
+#: freight/models.py:393
+msgid "Comments"
+msgstr ""
+
+#: freight/models.py:394
+msgid "Comments of the docket."
+msgstr ""
+
+#: freight/models.py:399 netexgl/models.py:29
+msgid "Created At"
+msgstr ""
+
+#: freight/models.py:404 netexgl/models.py:34
+msgid "Updated At"
+msgstr ""
+
+#: freight/models.py:415
+msgid "docket"
+msgstr ""
+
+#: freight/models.py:416
+msgid "Dockets"
+msgstr ""
+
+#: freight/models.py:428
+msgid "Print"
+msgstr ""
+
+#: freight/models.py:449
+msgid "Shipper must be set."
+msgstr ""
+
+#: freight/models.py:452
+msgid "Consignee must be set."
+msgstr ""
+
+#: freight/models.py:455
+msgid "Only one shipper type can be set."
+msgstr ""
+
+#: freight/models.py:458
+msgid "Only one consignee type can be set."
+msgstr ""
+
+#: freight/models.py:500 freight/views.py:373
+msgid "Quantity"
+msgstr ""
+
+#: freight/models.py:505 freight/views.py:374
+msgid "Piece Unit"
+msgstr ""
+
+#: freight/models.py:512 freight/views.py:375
+msgid "Weight"
+msgstr ""
+
+#: freight/models.py:518
+msgid "Weight Unit"
+msgstr ""
+
+#: freight/models.py:525 freight/views.py:377
+msgid "Length"
+msgstr ""
+
+#: freight/models.py:531 freight/views.py:378
+msgid "Width"
+msgstr ""
+
+#: freight/models.py:537 freight/views.py:379
+msgid "Height"
+msgstr ""
+
+#: freight/models.py:543
+msgid "Dimension Unit"
+msgstr ""
+
+#: freight/models.py:554
+msgid "cargo"
+msgstr ""
+
+#: freight/models.py:555 freight/views.py:365
+msgid "Cargos"
+msgstr ""
+
+#: freight/urls.py:12
+msgid "docket/print/<uuid:pk>"
+msgstr ""
+
+#: freight/views.py:76 freight/views.py:666
+msgid "Docket"
+msgstr ""
+
+#: freight/views.py:76 freight/views.py:666
+msgid "Report"
+msgstr ""
+
+#: freight/views.py:81
+msgid "Report Date:"
+msgstr ""
+
+#: freight/views.py:158
+msgid "Origin"
+msgstr ""
+
+#: freight/views.py:162
+msgid "Destination"
+msgstr ""
+
+#: freight/views.py:186
+msgid "Type of Docket"
+msgstr ""
+
+#: freight/views.py:191
+msgid "Consignee"
+msgstr ""
+
+#: freight/views.py:195
+msgid "Shipper"
+msgstr ""
+
+#: freight/views.py:199
+msgid "ID"
+msgstr ""
+
+#: freight/views.py:236
+msgid "Shipment Information"
+msgstr ""
+
+#: freight/views.py:239
+msgid "PO #"
+msgstr ""
+
+#: freight/views.py:242
+msgid "PRO #"
+msgstr ""
+
+#: freight/views.py:245
+msgid "BOL #"
+msgstr ""
+
+#: freight/views.py:248
+msgid "Pickup #"
+msgstr ""
+
+#: freight/views.py:251
+msgid "CC #"
+msgstr ""
+
+#: freight/views.py:254
+msgid "AWB #"
+msgstr ""
+
+#: freight/views.py:257
+msgid "BL #"
+msgstr ""
+
+#: freight/views.py:260
+msgid "HBL #"
+msgstr ""
+
+#: freight/views.py:263
+msgid "CNTR #"
+msgstr ""
+
+#: freight/views.py:266
+msgid "Entry #"
+msgstr ""
+
+#: freight/views.py:269
+msgid "Carrier"
+msgstr ""
+
+#: freight/views.py:292
+msgid "Est. Time of Arrival #1"
+msgstr ""
+
+#: freight/views.py:297
+msgid "Est. Time of Arrival #2"
+msgstr ""
+
+#: freight/views.py:302
+msgid "OBL To Shipping Line Sent DT"
+msgstr ""
+
+#: freight/views.py:307
+msgid "Documents To Broker Sent DT"
+msgstr ""
+
+#: freight/views.py:312
+msgid "Documents To Carrier Sent DT"
+msgstr ""
+
+#: freight/views.py:317
+msgid "Arrival Notice Received DT"
+msgstr ""
+
+#: freight/views.py:322
+msgid "ISF Filled DT"
+msgstr ""
+
+#: freight/views.py:325
+msgid "Storage Start DT"
+msgstr ""
+
+#: freight/views.py:327
+msgid "Release DT"
+msgstr ""
+
+#: freight/views.py:376 freight/views.py:380
+msgid "Unit"
+msgstr ""
+
+#: freight/views.py:415
+msgid "Supplier Billings"
+msgstr ""
+
+#: freight/views.py:422 freight/views.py:486
+msgid "BT No. #"
+msgstr ""
+
+#: freight/views.py:424
+msgid "Supplier Service"
+msgstr ""
+
+#: freight/views.py:425 freight/views.py:492
+msgid "CCY"
+msgstr ""
+
+#: freight/views.py:426 freight/views.py:493
+msgid "PX"
+msgstr ""
+
+#: freight/views.py:428
+msgid "Bill No. #"
+msgstr ""
+
+#: freight/views.py:429
+msgid "RCV"
+msgstr ""
+
+#: freight/views.py:430
+msgid "APV"
+msgstr ""
+
+#: freight/views.py:431
+msgid "REC"
+msgstr ""
+
+#: freight/views.py:433
+msgid "Dis."
+msgstr ""
+
+#: freight/views.py:434
+msgid "PY. Date"
+msgstr ""
+
+#: freight/views.py:435
+msgid "PY. Type"
+msgstr ""
+
+#: freight/views.py:436
+msgid "PY. TN."
+msgstr ""
+
+#: freight/views.py:479
+msgid "Customer Billings"
+msgstr ""
+
+#: freight/views.py:487
+msgid "Customer Company"
+msgstr ""
+
+#: freight/views.py:489
+msgid "Customer Individual"
+msgstr ""
+
+#: freight/views.py:491
+msgid "Customer Service"
+msgstr ""
+
+#: freight/views.py:495
+msgid "Invoice No. #"
+msgstr ""
+
+#: freight/views.py:544
+msgid "INV BAK Sent"
+msgstr ""
+
+#: freight/views.py:546
+msgid "INV BAK Sent Date"
+msgstr ""
+
+#: freight/views.py:548
+msgid "P Type"
+msgstr ""
+
+#: freight/views.py:550
+msgid "P Transfer Number"
+msgstr ""
+
+#: netexgl/models.py:24
+msgid "Note"
+msgstr ""
+
+#: netexgl/settings.py:172
+msgid "English United States"
+msgstr ""
+
+#: netexgl/settings.py:173
+msgid "English Canada"
+msgstr ""
+
+#: netexgl/urls.py:56
+msgid "thirdparty/"
+msgstr ""
+
+#: netexgl/urls.py:60
+msgid "freight/"
+msgstr ""
+
+#: operations/apps.py:14
+msgid "Operations"
+msgstr ""
+
+#: templates/admin/index.html:11
+#, python-format
+msgid "Models in the %(name)s application"
+msgstr ""
+
+#: templates/admin/index.html:22
+msgid "Add"
+msgstr ""
+
+#: templates/admin/index.html:28
+msgid "Change"
+msgstr ""
+
+#: templates/admin/index.html:38
+msgid "You don't have permission to edit anything."
+msgstr ""
+
+#: thirdparty/apps.py:14
+msgid "Third-party"
+msgstr ""
+
+#: thirdparty/models.py:20
+msgid "First Name"
+msgstr ""
+
+#: thirdparty/models.py:26
+msgid "Last Name"
+msgstr ""
+
+#: thirdparty/models.py:56 thirdparty/models.py:177
+msgid "ZIP C. / Postal C."
+msgstr ""
+
+#: thirdparty/models.py:69 thirdparty/models.py:195
+msgid "Phone Number #1"
+msgstr ""
+
+#: thirdparty/models.py:74 thirdparty/models.py:200
+msgid "Extension #1"
+msgstr ""
+
+#: thirdparty/models.py:79 thirdparty/models.py:205
+msgid "Phone Number #2"
+msgstr ""
+
+#: thirdparty/models.py:84 thirdparty/models.py:210
+msgid "Extension #2"
+msgstr ""
+
+#: thirdparty/models.py:89 thirdparty/models.py:215
+msgid "Mobile Number"
+msgstr ""
+
+#: thirdparty/models.py:94 thirdparty/models.py:220
+msgid "Fax Number"
+msgstr ""
+
+#: thirdparty/models.py:99
+msgid "Email Address"
+msgstr ""
+
+#: thirdparty/models.py:105 thirdparty/models.py:236
+msgid "Website"
+msgstr ""
+
+#: thirdparty/models.py:116
+msgid "individual"
+msgstr ""
+
+#: thirdparty/models.py:117
+msgid "Individuals"
+msgstr ""
+
+#: thirdparty/models.py:139
+msgid "Company Name"
+msgstr ""
+
+#: thirdparty/models.py:148
+msgid "Contact Person"
+msgstr ""
+
+#: thirdparty/models.py:190
+msgid "Setup Date"
+msgstr ""
+
+#: thirdparty/models.py:225
+msgid "Email"
+msgstr ""
+
+#: thirdparty/models.py:230
+msgid "Importer #"
+msgstr ""
+
+#: thirdparty/models.py:248
+msgid "Companies"
+msgstr ""
+
+#: thirdparty/urls.py:12
+msgid "individual/ajax/address"
+msgstr ""
+
+#: thirdparty/urls.py:17
+msgid "company/ajax/address"
+msgstr ""

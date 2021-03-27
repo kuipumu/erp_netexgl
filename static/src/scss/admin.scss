@@ -1,0 +1,216 @@
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+#branding h1, #branding h1 a:link, #branding h1 a:visited {
+    color: $white;
+}
+
+#header {
+    background: $gray-900;
+    color: $white;
+}
+
+#header a:link, #header a:visited {
+    color: $white;
+}
+
+#header a:hover {
+    color: $white;
+}
+
+div.breadcrumbs {
+    background: $gray-100;
+    color: $gray-500;
+}
+
+div.breadcrumbs a {
+    color: $gray-900;
+}
+
+div.breadcrumbs a.active {
+    color: $gray-500;
+}
+
+div.breadcrumbs a:focus, div.breadcrumbs a:hover {
+    color: $gray-500;
+}
+
+.select2-container--admin-autocomplete .select2-results__option--highlighted[aria-selected] {
+    background-color: $gray-900;
+}
+
+.paginator a:link, .paginator a:visited {
+    background: $gray-900;
+}
+
+.button, input[type=submit], input[type=button], .submit-row input, a.button {
+    background: $gray-500;
+}
+
+.button:hover, input[type=submit]:hover, input[type=button]:hover {
+    background: $gray-600;
+}
+
+.module h2, .module caption, .inline-group h2 {
+    background: $gray-900;
+}
+
+#user-tools a:focus, #user-tools a:hover {
+    border: 0;
+    color: $gray-300;
+}
+
+.selector-chosen h2 {
+    background: $gray-900;
+}
+
+.calendar td.selected a {
+    background: $gray-900;
+}
+
+.calendar td a:focus, .timelist a:focus,
+.calendar td a:hover, .timelist a:hover {
+    background: $gray-900;
+}
+
+#changelist-filter li.selected a {
+    color: $gray-700;
+}
+
+fieldset.collapsed .collapse-toggle {
+    color: $gray-700;
+}
+
+a:link, a:visited {
+    color: $gray-600;
+}
+
+a:focus, a:hover {
+    color: $gray-500;
+}
+
+table thead th.sorted .sortoptions a.sortremove:focus:after,
+table thead th.sorted .sortoptions a.sortremove:hover:after {
+    color: $gray-700;
+}
+
+a.active.selector-chooseall:focus, a.active.selector-clearall:focus,
+a.active.selector-chooseall:hover, a.active.selector-clearall:hover {
+    color: $gray-500;
+}
+
+.calendar td a:active, .timelist a:active {
+    background: $gray-700;
+}
+
+.change-list ul.toplinks .date-back a:focus,
+.change-list ul.toplinks .date-back a:hover {
+    color: $gray-900;
+}
+
+.paginator a.showall:focus, .paginator a.showall:hover {
+    color: $gray-900;
+}
+
+.paginator a:focus, .paginator a:hover {
+    background: $gray-900;
+}
+
+#changelist-filter a:focus, #changelist-filter a:hover,
+#changelist-filter li.selected a:focus,
+#changelist-filter li.selected a:hover {
+    color: $gray-900;
+}
+
+.calendar td a:active, .timelist a:active {
+    background: $gray-900;
+    color: $white;
+}
+
+.calendar caption, .calendarbox h2 {
+    background: $gray-500;
+}
+
+.button.default, input[type=submit].default, .submit-row input.default {
+    background: $gray-900;
+}
+
+.button.default:hover, input[type=submit].default:hover {
+    background: $black;
+}
+
+.select2-container--admin-autocomplete .select2-results__option--highlighted[aria-selected] {
+    background-color: $gray-900;
+}
+
+.button.default, input[type=submit].default, .submit-row input.default {
+    background: $gray-900;
+}
+
+.object-tools a:focus, .object-tools a:hover {
+    background-color: $gray-900;
+}
+
+
+input[type=file]::-webkit-file-upload-button:hover {
+    border: 0;
+    background: $gray-900;
+}
+
+.inline-group {
+    overflow: auto!important;
+}
+
+#cargo_set-group {
+  .field-weight input {
+    width: 80px!important;
+  }
+  .field-length input {
+    width: 80px!important;
+  }
+  .field-width input {
+    width: 80px!important;
+  }
+  .field-height input {
+    width: 80px!important;
+  }
+}
+
+#payment_set-group {
+  .field-invoice_no input {
+    width: 200px!important;
+  }
+  .field-payment_transfer_number input {
+    width: 200px!important;
+  }
+}
+
+#customerbilling_set-group {
+  .field-customer_company .select2-container {
+    width: 200px!important;
+  }
+  .field-customer_individual .select2-container {
+    width: 200px!important;
+  }
+  .field-price input {
+    width: 80px!important;
+  }
+}
+
+#supplierbilling_set-group {
+  .field-supplier .select2-container {
+    width: 200px!important;
+  }
+  .field-bill_no input {
+    width: 200px!important;
+  }
+}

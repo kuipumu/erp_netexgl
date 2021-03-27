@@ -1,0 +1,35 @@
+{
+  "name": "netexgl-erp",
+  "version": "1.0.0",
+  "description": "NPM Package for NETEX Global ERP.",
+  "private": "true",
+  "dependencies": {
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {
+    "css-loader": "^5.0.1",
+    "expose-loader": "^1.0.3",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^1.3.2",
+    "node-sass": "^5.0.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "sass-loader": "^10.1.0",
+    "source-map-loader": "^1.1.3",
+    "terser-webpack-plugin": "^4.2.3",
+    "url-loader": "^2.3.0",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "manage": "python manage.py runserver",
+    "collect": "python manage.py collectstatic",
+    "mkmigrate": "python manage.py makemigrations",
+    "migrate": "python manage.py migrate",
+    "mkmessages": "python manage.py makemessages --ignore=env/*",
+    "compilemessages": "python manage.py compilemessages --ignore=env/*",
+    "shell": "python manage.py shell"
+  },
+  "author": "kuipumu",
+  "license": "BSD-3-Clause"
+}

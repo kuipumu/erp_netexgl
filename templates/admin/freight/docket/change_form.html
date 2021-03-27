@@ -1,0 +1,102 @@
+{% extends "admin/change_form.html" %}
+
+{% block after_related_objects %}
+<script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", () => {
+        // Init autofill address on form.
+        const autofillAddresses = [
+            {
+                option: '{{ adminform.form.shipper_company.name }}',
+                url: '{{ request.scheme }}://{{ request.get_host }}{% url "ajax_company_address" %}',
+                address_line1: '{{ adminform.form.origin_address_line1.name }}',
+                address_line2: '{{ adminform.form.origin_address_line2.name }}',
+                city_district: '{{ adminform.form.origin_city_district.name }}',
+                state_province: '{{ adminform.form.origin_state_province.name }}',
+                postal_code: '{{ adminform.form.origin_postal_code.name }}',
+                country: '{{ adminform.form.origin_country.name }}'
+            },
+            {
+                option: '{{ adminform.form.consignee_company.name }}',
+                url: '{{ request.scheme }}://{{ request.get_host }}{% url "ajax_company_address" %}',
+                address_line1: '{{ adminform.form.destination_address_line1.name }}',
+                address_line2: '{{ adminform.form.destination_address_line2.name }}',
+                city_district: '{{ adminform.form.destination_city_district.name }}',
+                state_province: '{{ adminform.form.destination_state_province.name }}',
+                postal_code: '{{ adminform.form.destination_postal_code.name }}',
+                country: '{{ adminform.form.destination_country.name }}'
+            },
+            {
+                option: '{{ adminform.form.shipper_individual.name }}',
+                url: '{{ request.scheme }}://{{ request.get_host }}{% url "ajax_individual_address" %}',
+                address_line1: '{{ adminform.form.origin_address_line1.name }}',
+                address_line2: '{{ adminform.form.origin_address_line2.name }}',
+                city_district: '{{ adminform.form.origin_city_district.name }}',
+                state_province: '{{ adminform.form.origin_state_province.name }}',
+                postal_code: '{{ adminform.form.origin_postal_code.name }}',
+                country: '{{ adminform.form.origin_country.name }}'
+            },
+            {
+                option: '{{ adminform.form.consignee_individual.name }}',
+                url: '{{ request.scheme }}://{{ request.get_host }}{% url "ajax_individual_address" %}',
+                address_line1: '{{ adminform.form.destination_address_line1.name }}',
+                address_line2: '{{ adminform.form.destination_address_line2.name }}',
+                city_district: '{{ adminform.form.destination_city_district.name }}',
+                state_province: '{{ adminform.form.destination_state_province.name }}',
+                postal_code: '{{ adminform.form.destination_postal_code.name }}',
+                country: '{{ adminform.form.destination_country.name }}'
+            },
+        ]
+        // For loop values on list.
+        for (const {
+        option, url, address_line1, address_line2, city_district,
+        state_province, postal_code, country
+        } of autofillAddresses) {
+            autofillAddress (
+                option,
+                url,
+                address_line1,
+                address_line2,
+                city_district,
+                state_province,
+                postal_code,
+                country
+            )
+        }
+    })
+
+    // Init toggle checkboxes on form.
+    const checkboxToggle = [
+        {
+            checkbox: '{{ adminform.form.in_dispute.name }}',
+            field: '{{ adminform.form.dispute_notes.name }}'
+        },
+        {
+            checkbox: '{{ adminform.form.obl_to_shipping_line_sent.name }}',
+            field: '{{ adminform.form.obl_to_shipping_line_sent_date.name }}'
+        },
+        {
+            checkbox: '{{ adminform.form.documents_to_broker_sent.name }}',
+            field: '{{ adminform.form.documents_to_broker_sent_date.name }}'
+        },
+        {
+            checkbox: '{{ adminform.form.documents_to_carrier_sent.name }}',
+            field: '{{ adminform.form.documents_to_carrier_sent_date.name }}'
+        },
+        {
+            checkbox: '{{ adminform.form.arrival_notice_received.name }}',
+            field: '{{ adminform.form.arrival_notice_received_date.name }}'
+        },
+        {
+            checkbox: '{{ adminform.form.isf_filled.name }}',
+            field: '{{ adminform.form.isf_filled_date.name }}'
+        },
+    ]
+    // For loop values on list.
+    for (const { checkbox,field } of checkboxToggle) {
+        checkboxToggleField(
+            checkbox,
+            field,
+        )
+    }
+</script>
+{% endblock %}
